@@ -3,9 +3,18 @@ html,body,header,#intro{
 }
 #intro
 {
-	background: url(../img/photo.jpeg);
+	background: url(../img/photo.jpeg) no-repeat center center fixed;
 }
 .navbar-brand img{
 	max-height: 50px;
 	max-width: 50px;
+}
+.top-nav-collapse{
+	background-color: #24355c;
+}
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse)
+	{
+		background: #24355c;
+	}
 }
