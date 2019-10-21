@@ -18,3 +18,10 @@ html,body,header,#intro{
 		background: #24355c;
 	}
 }
+.contact-section .contact {
+    background-color: #103f6d;
+}
+.btn-primary
+{
+	width: 25%;
+}
