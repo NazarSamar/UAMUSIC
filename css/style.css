@@ -78,6 +78,7 @@ html,body,header,#intro{
     font-size: 50px;
     margin: -25px auto;
     color:black;
+    z-index: 100;
  }
 
  #arrow-left{
